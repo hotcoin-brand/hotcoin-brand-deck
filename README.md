@@ -1,1 +1,1 @@
-# hotcoin-brand-assets
+# hotcoin-brand-deck
