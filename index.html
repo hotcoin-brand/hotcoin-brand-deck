@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotcoin Deck</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+.container { text-align: center; padding: 40px; }
+.logo { font-size: 2.5rem; font-weight: 700; color: #fff; margin-bottom: 8px; }
+.subtitle { color: rgba(255,255,255,0.6); font-size: 1rem; margin-bottom: 48px; }
+.cards { display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; }
+.card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 32px 40px; text-decoration: none; transition: all 0.3s; min-width: 200px; }
+.card:hover { background: rgba(255,255,255,0.1); border-color: rgba(79,195,247,0.5); transform: translateY(-4px); box-shadow: 0 12px 40px rgba(79,195,247,0.15); }
+.card-icon { font-size: 2rem; margin-bottom: 12px; }
+.card-title { color: #fff; font-size: 1.1rem; font-weight: 600; margin-bottom: 4px; }
+.card-desc { color: rgba(255,255,255,0.5); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="logo">Hotcoin Deck</div>
+  <div class="subtitle">Select your language / 选择语言版本</div>
+  <div class="cards">
+    <a class="card" href="hotcoin-sc.html">
+      <div class="card-icon">🇨🇳</div>
+      <div class="card-title">简体中文</div>
+      <div class="card-desc">Simplified Chinese</div>
+    </a>
+    <a class="card" href="hotcoin-tc.html">
+      <div class="card-icon">🇭🇰</div>
+      <div class="card-title">繁體中文</div>
+      <div class="card-desc">Traditional Chinese</div>
+    </a>
+    <a class="card" href="hotcoin-en.html">
+      <div class="card-icon">🇬🇧</div>
+      <div class="card-title">English</div>
+      <div class="card-desc">English Version</div>
+    </a>
+  </div>
+</div>
+</body>
+</html>
